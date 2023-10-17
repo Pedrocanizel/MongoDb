@@ -1,5 +1,52 @@
 Voltar para explorar melhor os comandos da aula 14.Inserindo nosso primeiro documento do renan Pallin
 
+Parei na aula 16 criando conteudo.
+
+Por padrão, o MongoDb cria para cada objeto em seu banco um ID único para identificação daquele objetono formato:
+
+{“_id”: ObjetId(“5f20f2367a6bce90e101140be”)}
+
+No MongoDb quando você utiliza o comando:
+ ‘use <nome_do_banco_de_dados>’
+
+caso o banco de dados ainda não exista, ele criará um automaticamente para você com o nome que você passou, ou seja, você pode mas não precisa utilizar um comando como o ‘create’ para isso.
+
+
+Comandos equivalentes:
+
+No MongoDb: ‘show dbs’
+
+No SQL: SHOW DATABASES 
+
+
+Comando ‘db’ no MongoDb:
+
+O MongoDb se organiza em Database/Collection, o que seria equivalente à Database/Tabela no SQL.
+
+Quando você roda o comando ‘db’ você recebe como retorno o Databse que você está trabalhando.
+
+
+Comandos equivalentes:
+
+No MongoDb: ‘db.minhaCollection.find()’
+
+No SQL:
+‘SELECT * FROM ”database”.”minha_tabela”;’
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
